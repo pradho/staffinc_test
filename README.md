@@ -16,4 +16,4 @@ Nama : Ridho Habi Putra
 6. Jalankan migrasi database dengan perintah `php artisan migrate`. Dan lakukan seed `php artisan db:seed`
 
 ## Postman Collection
-https://api.postman.com/collections/20067586-69c1a579-c6d4-47e9-9de6-80957048087a?access_key=PMAT-01HX2FJZ0PXKM3SVPGDVD27JFN
+Dapat di test dengan melakukan import pada file [STAFFINC TEST.postman_collection](/STAFFINC%20TEST.postman_collection.json)

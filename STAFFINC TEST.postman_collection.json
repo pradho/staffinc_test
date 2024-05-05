@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "69c1a579-c6d4-47e9-9de6-80957048087a",
+		"name": "STAFFINC TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20067586",
+		"_collection_link": "https://planetary-meadow-747900.postman.co/workspace/My-Workspace~b1dfe621-8db7-44ac-88f6-26e103ebf44d/collection/20067586-69c1a579-c6d4-47e9-9de6-80957048087a?action=share&source=collection_link&creator=20067586"
+	},
+	"item": [
+		{
+			"name": "Team",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}/team",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"team"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Standings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}/standing",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"standing"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Statistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}/match/statistics",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"match",
+						"statistics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Match",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"home_team_id\": 1,\r\n    \"away_team_id\": 2,\r\n    \"home_team_goal\": 2,\r\n    \"away_team_goal\": 1,\r\n    \"match_date\": \"2024-05-04\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST}}/match",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"match"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
