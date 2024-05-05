@@ -14,6 +14,3 @@ Nama : Ridho Habi Putra
 4. Salin file `.env.example` menjadi `.env` dan sesuaikan pengaturan database.
 5. Jalankan perintah `php artisan key:generate`.
 6. Jalankan migrasi database dengan perintah `php artisan migrate`. Dan lakukan seed `php artisan db:seed`
-
-## Postman Collection
-Dapat di test dengan melakukan import pada file [STAFFINC TEST.postman_collection](/STAFFINC%20TEST.postman_collection.json)
